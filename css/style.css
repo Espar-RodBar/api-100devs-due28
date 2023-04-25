@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+    background: linear-gradient(
+        to bottom right,
+        rgb(206, 223, 254),
+        rgb(205, 242, 231)
+    );
+}
+
+header {
+    width: 30rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 10rem;
+
+    border-radius: 5px;
+}
+.word-section,
+.card-section,
+.art-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    width: 20rem;
+    text-align: center;
+    display: inline-block;
+}
+
+h3 {
+    text-align: center;
+    display: inline-block;
+    width: 30rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
