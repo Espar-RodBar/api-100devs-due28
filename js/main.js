@@ -7,7 +7,6 @@ const drawCard = "/draw/?count=1";
 // https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=2
 
 // //www.deckofcardsapi.com/
-// https://github.com/JessVel/sakura-card-captor-api
 // https://blog.greenborn.com.ar/2022/03/04/actualizacion-en-api-de-palabras-al-azar/
 
 //localStorage.setItem("deck_id", "");
